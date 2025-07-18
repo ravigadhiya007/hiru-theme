@@ -1,0 +1,109 @@
+/*
+ * Link styles
+ * https://github.com/WordPress/gutenberg/issues/42319
+ */
+a {
+	text-decoration-thickness: 1px !important;
+	text-underline-offset: .1em;
+}
+.wp-block-html body {
+	background: transparent !important;
+}
+
+iframe body {
+	background:  transparent !important;
+} 
+
+/* Query Pagination Styles */
+/* This CSS styles the pagination for the query block, ensuring it is visually appealing and user-friendly */
+.wp-block-query-pagination .wp-block-query-pagination-numbers .page-numbers,
+.wp-block-query-pagination .wp-block-query-pagination-previous,
+.wp-block-query-pagination .wp-block-query-pagination-next {
+	display: inline-block;
+	color: var(--wp--preset--color--tertiary);
+	border: 1px solid var(--wp--preset--color--bg-gray);
+	background-color: var(--wp--preset--color--bg-gray);
+	font-weight: 600;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 8px;
+	transition: all 0.3s ease-in-out;
+}
+.wp-block-query-pagination .wp-block-query-pagination-numbers .page-numbers:hover,
+.wp-block-query-pagination .wp-block-query-pagination-previous:hover,
+.wp-block-query-pagination .wp-block-query-pagination-next:hover {
+	color: var(--wp--preset--color--primary);
+	background-color: var(--wp--preset--color--white);
+	text-decoration: none;
+}
+.wp-block-query-pagination .wp-block-query-pagination-numbers .page-numbers.current {
+	color: var(--wp--preset--color--white);
+	background-color: var(--wp--preset--color--primary);
+}
+.wp-block-query-pagination .wp-block-query-pagination-previous span,
+.wp-block-query-pagination .wp-block-query-pagination-next span {
+	margin: 0;
+}
+
+/* Form Styles */
+/* This CSS styles the form elements to ensure they are visually appealing and consistent with the theme's design. */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea,
+.wp-block-search__input {
+    background-color: transparent;
+    border-radius: 6px;
+    border-width: 1px;
+	border-style: solid;
+	border-color: var(--wp--preset--color--border-gray);
+    color: var(--wp--preset--color--gray);
+    font-family: inherit;
+    font-size: var(--wp--preset--font-size--medium);
+    line-height: inherit;
+    padding: 1rem;
+	box-sizing: border-box;
+	margin-bottom: 0.5rem;
+	width: 100%;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus,
+.wp-block-search__input:focus {
+	outline: none;
+}
+
+input[type="button"],
+input[type="submit"],
+.wp-block-search__button {
+    background-color: var(--wp--preset--color--primary);
+    border-radius: 6px;
+    border-width: 0;
+    color: var(--wp--preset--color--white);
+    font-family: inherit;
+    font-size: var(--wp--preset--font-size--medium);
+    line-height: inherit;
+    padding-top: 1rem;
+    padding-right: 2.25rem;
+    padding-bottom: 1rem;
+    padding-left: 2.25rem;
+    text-decoration: none;
+	transition: 0.4s all;
+	cursor: pointer;
+}
+input[type="button"]:hover,
+input[type="submit"]:hover,
+.wp-block-search__button:hover {
+	background-color: var(--wp--preset--color--quaternary);
+	color: var(--wp--preset--color--white);
+}
