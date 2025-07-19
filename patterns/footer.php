@@ -12,11 +12,11 @@
  */
 
 ?>
-<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"backgroundColor":"black","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-black-background-color has-background" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"33.33%"} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem","left":"0","right":"0"}}},"backgroundColor":"black","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull has-black-background-color has-background" style="padding-top:4rem;padding-right:0;padding-bottom:4rem;padding-left:0"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:site-title {"level":2,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} /-->
 
@@ -97,11 +97,15 @@
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"textColor":"gray","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-	<!-- wp:navigation-link {"label":"About Us","url":"#"} /-->
-	<!-- wp:navigation-link {"label":"Our Team","url":"#"} /-->
-	<!-- wp:navigation-link {"label":"Careers","url":"#"} /-->
-	<!-- wp:navigation-link {"label":"News & Press","url":"#"} /-->
-	<!-- wp:navigation-link {"label":"Contact","url":"#"} /-->
+<!-- wp:navigation-link {"label":"About Us","url":"#"} /-->
+
+<!-- wp:navigation-link {"label":"Our Team","url":"#"} /-->
+
+<!-- wp:navigation-link {"label":"Careers","url":"#"} /-->
+
+<!-- wp:navigation-link {"label":"News \u0026 Press","url":"#"} /-->
+
+<!-- wp:navigation-link {"label":"Contact","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -113,11 +117,15 @@
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"textColor":"gray","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-	<!-- wp:navigation-link {"label":"Services","url":"#"} /-->
-	<!-- wp:navigation-link {"label":"Our Process","url":"#"} /-->
-	<!-- wp:navigation-link {"label":"Case Studies","url":"#"} /-->
-	<!-- wp:navigation-link {"label":"Industries We Serve","url":"#"} /-->
-	<!-- wp:navigation-link {"label":"Technology Stack","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Services","url":"#"} /-->
+
+<!-- wp:navigation-link {"label":"Our Process","url":"#"} /-->
+
+<!-- wp:navigation-link {"label":"Case Studies","url":"#"} /-->
+
+<!-- wp:navigation-link {"label":"Industries We Serve","url":"#"} /-->
+
+<!-- wp:navigation-link {"label":"Technology Stack","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -129,11 +137,15 @@
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"textColor":"gray","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-	<!-- wp:navigation-link {"label":"Blog","url":"#"} /-->
-	<!-- wp:navigation-link {"label":"FAQs","url":"#"} /-->
-	<!-- wp:navigation-link {"label":"Support","url":"#"} /-->
-	<!-- wp:navigation-link {"label":"Privacy Policy","url":"#"} /-->
-	<!-- wp:navigation-link {"label":"Terms & Conditions","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Blog","url":"#"} /-->
+
+<!-- wp:navigation-link {"label":"FAQs","url":"#"} /-->
+
+<!-- wp:navigation-link {"label":"Support","url":"#"} /-->
+
+<!-- wp:navigation-link {"label":"Privacy Policy","url":"#"} /-->
+
+<!-- wp:navigation-link {"label":"Terms \u0026 Conditions","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -143,7 +155,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","style":{"color":{"background":"#000000e6"}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"full","style":{"color":{"background":"#000000e6"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull has-background" style="background-color:#000000e6"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|gray"}}}},"textColor":"gray"} -->
 <p class="has-text-align-center has-gray-color has-text-color has-link-color">Copyright © 2025 Blok. Powered by WordPress.</p>
