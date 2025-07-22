@@ -12,7 +12,8 @@ Text Domain: blok
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, blog, portfolio, news
 */
 
-main.wp-block-group {
+main.wp-block-group,
+main.wp-block-group + .wp-block-template-part {
 	margin-block-start: 0;
 }
 
@@ -139,7 +140,7 @@ input[type="submit"]:hover,
 
 /** Social Links Styles */
 /* This CSS styles the social links block to ensure it is visually appealing and consistent with the theme's design */
-.wp-block-social-links.has-icon-color .wp-social-link .wp-block-social-link-anchor {
+.wp-block-social-links.has-icon-color.footer-social .wp-social-link .wp-block-social-link-anchor {
 	width: 32px;
 	height: 32px;
 	background-color: var(--wp--preset--color--white);
