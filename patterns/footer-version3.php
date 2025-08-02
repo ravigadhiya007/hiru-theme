@@ -3,7 +3,7 @@
  * Title: Footer version 3
  * Slug: blok/footer-version3
  * Categories: footer
- * Block Types: core/template-part/footer-version3
+ * Block Types: core/template-part/footer
  * Description: Site footer version3 with newsletter subscription, copyright information, and social links.
  *
  * @package WordPress

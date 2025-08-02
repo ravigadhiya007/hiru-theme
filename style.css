@@ -16,6 +16,9 @@ main.wp-block-group,
 main.wp-block-group + .wp-block-template-part {
 	margin-block-start: 0;
 }
+.heading-404 {
+	text-shadow: 12px 10px rgb(6 5 5 / 15%)
+}
 
 /** Sticky Header Styles */
 /* This CSS styles the sticky header, ensuring it remains at the top of the page when scrolling. */
@@ -299,3 +302,49 @@ input[type="submit"]:hover,
 		display: none !important;
 	}
 }
+
+
+/** Sidebar style */
+/* This CSS styles the navigation menu to ensure it is visually appealing and user-friendly */
+#sidebar .wp-block-separator {
+	max-width: 200px !important;
+	margin-left: 0 !important;
+}
+#sidebar .wp-block-categories-list {
+	list-style: none;
+	padding-left: 0;
+}
+#sidebar .wp-block-categories-list li {
+	position: relative;
+	padding-left: 24px;
+}
+#sidebar .wp-block-categories-list li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+    transform: translateY(-50%);
+	width: 18px;
+	height: 18px;
+	background-image: url('./assets/images/chevron-right.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#sidebar .wp-block-categories-list li + li {
+	margin-top: 10px;
+}
+#sidebar .wp-block-tag-cloud .tag-cloud-link {
+	padding: 10px 20px;
+	margin: 0px 4px 8px 0px;
+	color: var(--wp--preset--color--gray);
+	background: var(--wp--preset--color--bg-gray);
+    border: 1px solid var(--wp--preset--color--bg-gray);
+	border-radius: 6px;
+	text-decoration: none !important;
+}
+#sidebar .wp-block-tag-cloud .tag-cloud-link:hover {
+	background: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--white);
+}
+
+

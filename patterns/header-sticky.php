@@ -3,7 +3,7 @@
  * Title: Sticky header
  * Slug: blok/header-sticky
  * Categories: header
- * Block Types: core/template-part/header-sticky
+ * Block Types: core/template-part/header
  * Description: Site sticky header with site title and navigation.
  *
  * @package WordPress
