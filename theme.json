@@ -334,7 +334,7 @@
 				}
 			},
 			"core/post-comments-form": {
-				"css": "& textarea, input:not([type=submit]){border-radius:.25rem; border-color: var(--wp--preset--color--gray) !important;} & input[type=checkbox]{margin:0 .2rem 0 0 !important;} & label {font-size: var(--wp--preset--font-size--small); }",
+				"css": "& textarea, input:not([type=submit]){border-radius:.25rem; border-color: var(--wp--preset--color--gray) !important;} & input[type=checkbox]{margin:0 .2rem 0 0 !important;} & label {font-size: var(--wp--preset--font-size--medium); }",
 				"typography": {
 					"fontSize": "var:preset|font-size|medium"
 				},
@@ -535,12 +535,12 @@
 			},
 			"core/separator": {
 				"border": {
-					"color": "var:preset|color|gray",
+					"color": "var:preset|color|border-gray",
 					"style": "solid",
 					"width": "0 0 1px 0"
 				},
 				"color": {
-					"text": "var:preset|color|gray"
+					"text": "var:preset|color|border-gray"
 				},
 				"variations": {
 					"wide": {

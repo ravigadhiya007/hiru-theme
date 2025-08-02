@@ -3,7 +3,7 @@
  * Title: Header with top bar
  * Slug: blok/header-top-bar
  * Categories: header
- * Block Types: core/template-part/header-top-bar
+ * Block Types: core/template-part/header
  * Description: Site header with top bar and navigation.
  *
  * @package WordPress

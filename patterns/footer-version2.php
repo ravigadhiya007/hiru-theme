@@ -3,7 +3,7 @@
  * Title: Footer version 2
  * Slug: blok/footer-version2
  * Categories: footer
- * Block Types: core/template-part/footer-version2
+ * Block Types: core/template-part/footer
  * Description: Site footer version2 with copyright information and social links.
  *
  * @package WordPress

@@ -1,0 +1,64 @@
+<?php
+/**
+ * Title: Comments
+ * Slug: blok/comments
+ * Description: Comments area with comments list, pagination, and comment form.
+ * Categories: text
+ * Block Types: core/comments
+ *
+ * @package WordPress
+ * @subpackage Blok
+ * @since Blok 1.0
+ */
+
+?>
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group">
+	<!-- wp:comments -->
+	<div class="wp-block-comments">
+		<!-- wp:comments-title {"showPostTitle":false,"style":{"elements":{"link":{"color":{"text":"var:preset|color|black"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"black"} /-->
+		
+		<!-- wp:comment-template -->
+
+			<!-- wp:columns {"style":{"border":{"width":"1px","color":"#CFCFCF","radius":"6px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"}}}} -->
+			<div class="wp-block-columns has-border-color" style="border-color:#CFCFCF;border-width:1px;border-radius:6px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
+				<!-- wp:column {"width":"40px"} -->
+				<div class="wp-block-column" style="flex-basis:40px"><!-- wp:avatar {"size":40,"style":{"border":{"radius":"20px"}}} /--></div>
+				<!-- /wp:column -->
+				
+				<!-- wp:column -->
+				<div class="wp-block-column">
+					<!-- wp:comment-author-name {"isLink":false,"style":{"elements":{"link":{"color":{"text":"var:preset|color|black"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"black","fontSize":"small"} /-->
+					
+					<!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"flex"}} -->
+					<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px">
+						<!-- wp:comment-date {"fontSize":"small"} /-->
+						<!-- wp:comment-edit-link {"fontSize":"small"} /-->
+					</div>
+					<!-- /wp:group -->
+					
+					<!-- wp:comment-content /-->
+					
+					<!-- wp:comment-reply-link {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"fontSize":"small"} /-->
+					
+				</div>
+				<!-- /wp:column -->
+				
+			</div>
+			<!-- /wp:columns -->
+
+		<!-- /wp:comment-template -->
+		
+		<!-- wp:comments-pagination -->
+			<!-- wp:comments-pagination-previous /-->
+			<!-- wp:comments-pagination-numbers /-->
+			<!-- wp:comments-pagination-next /-->
+		<!-- /wp:comments-pagination -->
+		
+		<!-- wp:post-comments-form /-->
+	
+	</div>
+	<!-- /wp:comments -->
+	
+</div>
+<!-- /wp:group -->
