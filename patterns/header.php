@@ -24,6 +24,7 @@
 	<!-- wp:navigation-link {"label":"Home","url":"#"} /-->
 	<!-- wp:navigation-link {"label":"About US","url":"#"} /-->
 	<!-- wp:navigation-link {"label":"Services","url":"#"} /-->
+	<!-- wp:navigation-link {"label":"Blog","url":"#"} /-->
 	<!-- wp:navigation-submenu {"label":"Pages","url":"#"} -->
 		<!-- wp:navigation-link {"label":"Blog Page","url":"#"} /-->
 		<!-- wp:navigation-link {"label":"404 Page","url":"#"} /-->

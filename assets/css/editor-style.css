@@ -1,24 +1,16 @@
-/*
- * Link styles
- * https://github.com/WordPress/gutenberg/issues/42319
- */
+/* Link styles */
 a {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: .1em;
 }
-.wp-block-html body {
-	background: transparent !important;
-}
 
-iframe body {
-	background:  transparent !important;
-} 
-
+/* 404 page heading styles */
 .heading-404 {
-	text-shadow: 12px 10px rgb(6 5 5 / 15%)
+	text-shadow: 12px 10px rgb(6 5 5 / 15%);
+	max-width: max-content !important;
 }
 
-/* Query Pagination Styles */
+/** Query Pagination Styles */
 /* This CSS styles the pagination for the query block, ensuring it is visually appealing and user-friendly */
 .wp-block-query-pagination .wp-block-query-pagination-numbers .page-numbers,
 .wp-block-query-pagination .wp-block-query-pagination-previous,
@@ -52,7 +44,7 @@ iframe body {
 	margin: 0;
 }
 
-/* Form Styles */
+/** Form Styles */
 /* This CSS styles the form elements to ensure they are visually appealing and consistent with the theme's design. */
 input[type="text"],
 input[type="email"],
@@ -110,4 +102,73 @@ input[type="submit"]:hover,
 .wp-block-search__button:hover {
 	background-color: var(--wp--preset--color--quaternary);
 	color: var(--wp--preset--color--white);
+}
+
+/** Social Links Styles */
+/* This CSS styles the social links block to ensure it is visually appealing and consistent with the theme's design */
+.wp-block-social-links.has-icon-color.footer-social .wp-social-link .wp-block-social-link-anchor {
+	width: 32px;
+	height: 32px;
+	background-color: var(--wp--preset--color--white);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+}
+.header-top .wp-block-social-links.has-icon-color .wp-social-link .wp-block-social-link-anchor {
+	justify-content: center;
+	width: 26px;
+	height: 26px;
+	background-color: var(--wp--preset--color--quaternary);
+	border-radius: 6px;
+}
+
+/** Sidebar style */
+/* This CSS styles the sidebar it is visually appealing and user-friendly */
+.wp-block-categories-list {
+	list-style: none;
+	padding-left: 0;
+}
+.wp-block-categories-list li {
+	position: relative;
+	padding-left: 24px;
+}
+.wp-block-categories-list li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 6px;
+	height: 6px;
+	border-top: 2px solid var(--wp--preset--color--primary);
+	border-right: 2px solid var(--wp--preset--color--primary);
+	transform: translateY(-50%) rotate(45deg);
+}
+.wp-block-categories-list li + li {
+	margin-top: 10px;
+}
+.wp-block-tag-cloud .tag-cloud-link {
+	padding: 10px 20px;
+	margin: 0px 4px 8px 0px;
+	color: var(--wp--preset--color--gray);
+	background: var(--wp--preset--color--bg-gray);
+    border: 1px solid var(--wp--preset--color--bg-gray);
+	border-radius: 6px;
+	text-decoration: none !important;
+}
+.wp-block-tag-cloud .tag-cloud-link:hover {
+	background: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--white);
+}
+
+/** General style */
+/* This CSS styles the general elements of the theme to ensure consistency and visual appeal */
+main.wp-block-group,
+main.wp-block-group + .wp-block-template-part {
+	margin-block-start: 0;
+}
+@media screen and ( max-width: 580px ) {
+	.mobile-hide {
+		display: none !important;
+	}
 }

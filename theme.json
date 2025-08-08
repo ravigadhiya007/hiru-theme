@@ -7,6 +7,13 @@
 			"defaultDuotone": false,
 			"defaultGradients": false,
 			"defaultPalette": false,
+			"duotone": [
+				{
+					"colors": ["#1769FF", "#1769FF"],
+					"slug": "duotone-1",
+					"name": "Primary Duotone"
+				}
+			],
 			"palette": [
 				{
                     "color": "#1769FF",
@@ -713,14 +720,8 @@
 		},
 		{
 			"area": "header",
-			"name": "vertical-header",
-			"title": "Vertical site header"
-		},
-		{
-			"area": "header",
-			"name": "header-large-title",
-			"title": "Header with large title"
-
+			"name": "header-top-bar",
+			"title": "Header with top bar"
 		},
 		{
 			"area": "footer",
@@ -729,13 +730,13 @@
 		},
 		{
 			"area": "footer",
-			"name": "footer-columns",
-			"title": "Footer Columns"
+			"name": "footer-version2",
+			"title": "Footer version 2"
 		},
 		{
 			"area": "footer",
-			"name": "footer-newsletter",
-			"title": "Footer Newsletter"
+			"name": "footer-version3",
+			"title": "Footer version 3"
 		},
 		{
 			"area": "uncategorized",

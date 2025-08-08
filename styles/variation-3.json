@@ -1,0 +1,166 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Style 3",
+	"settings": {
+		"color": {
+			"duotone": [
+				{
+					"colors": ["#5A13F1", "#5A13F1"],
+					"slug": "duotone-1",
+					"name": "Primary Duotone"
+				}
+			],
+			"palette": [
+				{
+                    "color": "#5A13F1",
+                    "name": "Primary",
+                    "slug": "primary"
+                },
+                {
+                    "color": "#10002B",
+                    "name": "Secondary",
+                    "slug": "secondary"
+                },
+                {
+                    "color": "#36454A",
+                    "name": "Tertiary",
+                    "slug": "tertiary"
+                },
+                {
+                    "color": "#3E0DB0",
+                    "name": "Quaternary",
+                    "slug": "quaternary"
+                },
+                {
+                    "color": "#000000",
+                    "name": "Black",
+                    "slug": "black"
+                },
+                {
+                    "color": "#FFFFFF",
+                    "name": "White",
+                    "slug": "white"
+                },
+				{
+                    "color": "#686868",
+                    "name": "Gray",
+                    "slug": "gray"
+				},
+				{
+					"color": "#F5F7FA",
+					"name": "Light Gray",
+					"slug": "light-gray"
+				},
+				{
+					"color": "#F4F6F9",
+					"name": "Background Gray",
+					"slug": "bg-gray"
+				},
+				{
+					"color": "#CFCFCF",
+					"name": "Border Gray",
+					"slug": "border-gray"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "Montserrat",
+					"slug": "montserrat",
+					"fontFamily": "Montserrat, sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/montserrat/Montserrat-VariableFont_wght.woff2"
+							],
+							"fontWeight": "100 200 300 400 500 600 700 800 900",
+							"fontStyle": "normal",
+							"fontFamily": "Montserrat"
+						}
+					]
+				},
+				{
+					"name": "Open Sans",
+					"slug": "open-sans",
+					"fontFamily": "Open Sans, sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/open-sans/OpenSans-VariableFont_wdth,wght.woff2"
+							],
+							"fontWeight": "100 200 300 400 500 600 700 800 900",
+							"fontStyle": "normal",
+							"fontFamily": "Open Sans"
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|open-sans"
+		},
+		"blocks": {
+			"core/button": {
+				"variations": {
+					"outline": {
+						"color": {
+							"text": "var:preset|color|primary"
+						},
+						"border": {
+							"color": "var:preset|color|primary"
+						},
+						"css": ".wp-block-button__link:not(.has-background):hover {background-color:var(--wp--preset--color--primary);color:var(--wp--preset--color--white)}"
+					}
+				}
+			},
+			"core/quote": {
+				"border": {
+					"color": "var:preset|color|primary"
+				}
+			},
+			"core/navigation": {
+				"elements": {
+					"link": {
+						":hover": {
+							"color": {
+								"text": "var:preset|color|primary"
+							}
+						}
+					}
+				}
+			}
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var:preset|color|primary"
+				},
+				":focus": {
+					"outline": {
+						"color": "var:preset|color|primary",
+						"offset": "2px"
+					}
+				},
+				":hover": {
+					"color": {
+						"background": "var:preset|color|quaternary"
+					}
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|montserrat"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|primary"
+				}
+			}
+		}
+	}
+}
