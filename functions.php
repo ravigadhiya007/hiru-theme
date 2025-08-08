@@ -9,21 +9,6 @@
  * @since Blok 1.0
  */
 
-// Adds theme support for post formats.
-if ( ! function_exists( 'blok_post_format_setup' ) ) :
-	/**
-	 * Adds theme support for post formats.
-	 *
-	 * @since Blok 1.0
-	 *
-	 * @return void
-	 */
-	function blok_post_format_setup() {
-		add_theme_support( 'post-formats', array( 'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video' ) );
-	}
-endif;
-add_action( 'after_setup_theme', 'blok_post_format_setup' );
-
 // Enqueues editor-style.css in the editors.
 if ( ! function_exists( 'blok_editor_style' ) ) :
 	/**
@@ -98,90 +83,22 @@ if ( ! function_exists( 'blok_block_styles' ) ) :
 endif;
 add_action( 'init', 'blok_block_styles' );
 
-// Registers pattern categories.
-if ( ! function_exists( 'blok_pattern_categories' ) ) :
-	/**
-	 * Registers pattern categories.
-	 *
-	 * @since Blok 1.0
-	 *
-	 * @return void
-	 */
-	function blok_pattern_categories() {
-
-		register_block_pattern_category(
-			'blok_page',
-			array(
-				'label'       => __( 'Pages', 'blok' ),
-				'description' => __( 'A collection of full page layouts.', 'blok' ),
-			)
-		);
-
-		register_block_pattern_category(
-			'blok_post-format',
-			array(
-				'label'       => __( 'Post formats', 'blok' ),
-				'description' => __( 'A collection of post format patterns.', 'blok' ),
-			)
-		);
-	}
-endif;
-add_action( 'init', 'blok_pattern_categories' );
-
 /**
- * Replace navigation icon 
+ * Replace navigation icon.
  *
- * @param string $block_content
- * @param array $block
- * @return void
+ * @param string $block_content Block content.
+ * @param array  $block Block data object.
+ * @return string
  */
-function unified_fse__render_block_core_navigation( $block_content, $block ) {
+function blok__render_block_core_navigation( $block_content, $block ) {
 	if (
-		$block['blockName'] === 'core/navigation' && 
+		'core/navigation' === $block['blockName'] &&
 		! is_admin() &&
 		! wp_is_json_request()
 	) {
-		return preg_replace('/\<svg width(.*?)\<\/svg\>/', '<svg width="36" height="36" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" aria-hidden="true" focusable="false"><rect x="4" y="9.5" width="30" height="2.5"></rect><rect x="4" y="19" width="30" height="2.5"></rect><rect x="4" y="28.5" width="30" height="2.5"></rect></svg>', $block_content);
+		return preg_replace( '/\<svg width(.*?)\<\/svg\>/', '<svg width="36" height="36" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" aria-hidden="true" focusable="false"><rect x="4" y="9.5" width="30" height="2.5"></rect><rect x="4" y="19" width="30" height="2.5"></rect><rect x="4" y="28.5" width="30" height="2.5"></rect></svg>', $block_content );
 	}
 
 	return $block_content;
 }
-add_filter( 'render_block', 'unified_fse__render_block_core_navigation', null, 2 );
-
-// add_filter( 'post_thumbnail_url', 'blok_post_thumbnail_url', 10, 3 );
-// function blok_post_thumbnail_url( $thumbnail_url, $post, $size ) {
-// 	echo '<pre>';
-// 	print_r( $post );
-// 	echo '</pre>';
-// 	exit();
-	
-// 	if ( ! has_post_thumbnail( $post ) ) {
-// 		$thumbnail_url = get_template_directory_uri() . '/assets/images/default-thumbnail.jpg';
-// 	}
-// 	echo '$thumbnail_url => ' . $thumbnail_url;
-// 	exit();
-// }
-
-
-// add_filter( 'post_thumbnail_html', 'custom_fallback_featured_image', 10, 3 );
-// function custom_fallback_featured_image( $html, $post_id, $post_thumbnail_id ) {
-// 	if ( empty( $html ) ) {
-// 		$fallback = get_template_directory_uri() . '/assets/images/default-thumbnail.jpg';
-// 		$html     = '<img src="' . esc_url( $fallback ) . '" alt="Default Featured Image">';
-// 	}
-// 	return $html;
-// }
-
-
-function add_file_types_to_uploads($file_types){
-$new_filetypes = array();
-$new_filetypes['svg'] = 'image/svg+xml';
-$file_types = array_merge($file_types, $new_filetypes );
-return $file_types;
-}
-add_filter('upload_mimes', 'add_file_types_to_uploads');
-
-
-// add_action( 'after_setup_theme', function() {
-// remove_theme_support( 'core-block-patterns' );
-// } );
+add_filter( 'render_block', 'blok__render_block_core_navigation', null, 2 );
