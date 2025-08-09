@@ -72,8 +72,8 @@
 
 <!-- wp:html -->
 <form action="/">
-	<input type="text" placeholder="<?php esc_html_e( 'Email address', 'blok' ); ?>" name="mail" required="">
-	<input type="submit" value="<?php esc_html_e( 'Subscribe', 'blok' ); ?>">
+	<input type="text" placeholder="<?php esc_attr_e( 'Email address', 'blok' ); ?>" name="mail" required="">
+	<input type="submit" value="<?php esc_attr_e( 'Subscribe', 'blok' ); ?>">
 </form>
 <!-- /wp:html --></div>
 <!-- /wp:group --></div>

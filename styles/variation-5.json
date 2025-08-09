@@ -1,19 +1,19 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
 	"version": 3,
-	"title": "Style 5",
+	"title": "Amber Glow",
 	"settings": {
 		"color": {
 			"duotone": [
 				{
-					"colors": ["#5A13F1", "#5A13F1"],
+					"colors": ["#FA8C17", "#FA8C17"],
 					"slug": "duotone-1",
 					"name": "Primary Duotone"
 				}
 			],
 			"palette": [
 				{
-                    "color": "#5A13F1",
+                    "color": "#FA8C17",
                     "name": "Primary",
                     "slug": "primary"
                 },
@@ -28,7 +28,7 @@
                     "slug": "tertiary"
                 },
                 {
-                    "color": "#3E0DB0",
+                    "color": "#D0730F",
                     "name": "Quaternary",
                     "slug": "quaternary"
                 },
