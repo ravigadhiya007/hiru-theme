@@ -1,7 +1,7 @@
 === Blok ===
 Contributors: ravigadhiyawp
 Requires at least: 6.1
-Tested up to: 6.8.2
+Tested up to: 6.8
 Requires PHP: 5.6
 Stable tag: 1.0
 License: GPLv3 or later
@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Blok emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.
+Blok is a clean and versatile WordPress block theme built for creativity and flexibility. Designed with simplicity at its core, it comes packed with adaptable design options and beautifully crafted block patterns for a range of page types — from service pages to engaging landing layouts. Perfect for personal blogs, professional portfolios, and business websites, Blok offers templates that work seamlessly with various content styles, whether text-rich or visually bold. With support for global typography, and diverse color palettes, Blok empowers users worldwide to create accessible, customized, and visually striking websites — all without touching a line of code.
 
 == Installation ==
 
@@ -107,7 +107,7 @@ https://www.rawpixel.com/image/5915495/
 
 Man designing website layout.
 Free public domain CC0 image.
-woman-working-laptop.webp
+man-designing-website-layout.webp
 https://www.rawpixel.com/image/5926264/
 
 Close up of students around a table working a project.
@@ -139,20 +139,31 @@ https://www.pexels.com/photo/a-woman-in-white-blazer-smiling-with-her-arms-cross
 https://www.pexels.com/photo/woman-in-gray-blazer-sitting-on-chair-5717549/	
 
 
-All SVG images:
-Source: 
-https://www.svgrepo.com/svg/425893/graph1
-https://www.svgrepo.com/svg/374557/brand
-https://www.svgrepo.com/svg/52817/gears
-https://www.svgrepo.com/svg/485659/chart
-https://www.svgrepo.com/svg/491458/paper-plane
-https://www.svgrepo.com/svg/352649/user-tie
-https://www.svgrepo.com/svg/442468/check-circle
-https://www.svgrepo.com/svg/486865/support
-https://www.svgrepo.com/svg/431878/quote-left
+All Icon Images used for different sections are SVG images
 
+Source: https://www.svgrepo.com/svg/425893/graph1
+License: https://www.svgrepo.com/page/licensing/#CC%20Attribution
 
+Source: https://www.svgrepo.com/svg/374557/brand
+License: https://www.svgrepo.com/page/licensing/#CC%20Attribution
 
-https://www.rawpixel.com/image/5924243/photo-image-public-domain-hand-technology
-https://www.rawpixel.com/image/5913188/image-paper-public-domain-hand
-https://www.rawpixel.com/image/431930/free-photo-image-computer-messy-office
+Source: https://www.svgrepo.com/svg/52817/gears
+License: https://www.svgrepo.com/page/licensing/#CC0
+
+Source: https://www.svgrepo.com/svg/485659/chart
+License: https://www.svgrepo.com/page/licensing/#PD
+
+Source: https://www.svgrepo.com/svg/491458/paper-plane
+License: https://www.svgrepo.com/page/licensing/#CC%20Attribution
+
+Source: https://www.svgrepo.com/svg/352649/user-tie
+License: https://www.svgrepo.com/page/licensing/#CC%20Attribution
+
+Source: https://www.svgrepo.com/svg/442468/check-circle
+License: https://www.svgrepo.com/page/licensing/#CC%20Attribution
+
+Source: https://www.svgrepo.com/svg/486865/support
+License: https://www.svgrepo.com/page/licensing/#MIT
+
+Source: https://www.svgrepo.com/svg/431878/quote-left
+License: https://www.svgrepo.com/page/licensing/#Apache

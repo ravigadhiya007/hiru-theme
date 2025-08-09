@@ -1,19 +1,19 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
 	"version": 3,
-	"title": "Style 4",
+	"title": "Emerald Edge",
 	"settings": {
 		"color": {
 			"duotone": [
 				{
-					"colors": ["#5A13F1", "#5A13F1"],
+					"colors": ["#1A9C84", "#1A9C84"],
 					"slug": "duotone-1",
 					"name": "Primary Duotone"
 				}
 			],
 			"palette": [
 				{
-                    "color": "#5A13F1",
+                    "color": "#1A9C84",
                     "name": "Primary",
                     "slug": "primary"
                 },
@@ -28,7 +28,7 @@
                     "slug": "tertiary"
                 },
                 {
-                    "color": "#3E0DB0",
+                    "color": "#137b68",
                     "name": "Quaternary",
                     "slug": "quaternary"
                 },

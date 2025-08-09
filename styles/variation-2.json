@@ -1,19 +1,19 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
 	"version": 3,
-	"title": "Style 2",
+	"title": "Golden Pulse",
 	"settings": {
 		"color": {
 			"duotone": [
 				{
-					"colors": ["#5A13F1", "#5A13F1"],
+					"colors": ["#e69e02", "#e69e02"],
 					"slug": "duotone-1",
 					"name": "Primary Duotone"
 				}
 			],
 			"palette": [
 				{
-                    "color": "#5A13F1",
+                    "color": "#e69e02",
                     "name": "Primary",
                     "slug": "primary"
                 },
@@ -28,7 +28,7 @@
                     "slug": "tertiary"
                 },
                 {
-                    "color": "#3E0DB0",
+                    "color": "#c48909",
                     "name": "Quaternary",
                     "slug": "quaternary"
                 },

@@ -102,3 +102,25 @@ function blok__render_block_core_navigation( $block_content, $block ) {
 	return $block_content;
 }
 add_filter( 'render_block', 'blok__render_block_core_navigation', null, 2 );
+
+// Registers pattern categories.
+if ( ! function_exists( 'blok__pattern_categories' ) ) :
+	/**
+	 * Registers pattern categories.
+	 *
+	 * @since Blok 1.0
+	 *
+	 * @return void
+	 */
+	function blok__pattern_categories() {
+
+		register_block_pattern_category(
+			'blok_team',
+			array(
+				'label'       => __( 'Team', 'blok' ),
+				'description' => __( 'A collection of team member layouts.', 'blok' ),
+			)
+		);
+	}
+endif;
+add_action( 'init', 'blok__pattern_categories' );
