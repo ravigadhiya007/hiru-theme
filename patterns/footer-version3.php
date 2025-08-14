@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Footer version 3
- * Slug: blok/footer-version3
+ * Slug: hiru/footer-version3
  * Categories: footer
  * Block Types: core/template-part/footer
  * Description: Site footer version3 with newsletter subscription, copyright information, and social links.
  *
  * @package WordPress
- * @subpackage Blok
- * @since Blok 1.0
+ * @subpackage Hiru
+ * @since Hiru 1.0
  */
 
 ?>
@@ -21,7 +21,7 @@
 <div class="wp-block-group"><!-- wp:site-title {"level":2,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} /-->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|gray"}}}},"textColor":"gray"} -->
-<p class="has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica', 'blok' ); ?></p>
+<p class="has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -45,19 +45,19 @@
 <div class="wp-block-columns"><!-- wp:column {"width":"25%"} -->
 <div class="wp-block-column" style="flex-basis:25%"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
-<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'Company', 'blok' ); ?></strong></h3>
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'Company', 'hiru' ); ?></strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"textColor":"gray","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About Us', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About Us', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Our Team', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Our Team', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Careers', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Careers', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'News & Press', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'News & Press', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact', 'hiru' ); ?>","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -65,19 +65,19 @@
 <!-- wp:column {"width":"25%"} -->
 <div class="wp-block-column" style="flex-basis:25%"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
-<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'What We Do', 'blok' ); ?></strong></h3>
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'What We Do', 'hiru' ); ?></strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"textColor":"gray","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Services', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Services', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Our Process', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Our Process', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Case Studies', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Case Studies', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Industries We Serve', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Industries We Serve', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Technology Stack', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Technology Stack', 'hiru' ); ?>","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -85,17 +85,17 @@
 <!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
-<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'Subscribe To Newsletter', 'blok' ); ?></strong></h3>
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'Subscribe To Newsletter', 'hiru' ); ?></strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|gray"}}}},"textColor":"gray"} -->
-<p class="has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Sign up with your email address to receive updates', 'blok' ); ?></p>
+<p class="has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Sign up with your email address to receive updates', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
 <form action="/">
-	<input type="text" placeholder="<?php esc_attr_e( 'Email address', 'blok' ); ?>" name="mail" required="">
-	<input type="submit" value="<?php esc_attr_e( 'Subscribe', 'blok' ); ?>">
+	<input type="text" placeholder="<?php esc_attr_e( 'Email address', 'hiru' ); ?>" name="mail" required="">
+	<input type="submit" value="<?php esc_attr_e( 'Subscribe', 'hiru' ); ?>">
 </form>
 <!-- /wp:html --></div>
 <!-- /wp:group --></div>
@@ -110,13 +110,13 @@
 <div class="wp-block-group alignfull has-background" style="background-color:#000000e6"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"align":"left","style":{"elements":{"link":{"color":{"text":"var:preset|color|gray"}}}},"textColor":"gray"} -->
-<p class="has-text-align-left has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Copyright © 2025 Blok.', 'blok' ); ?></p>
+<p class="has-text-align-left has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Copyright © 2025 Hiru.', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:navigation {"textColor":"gray","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","justifyContent":"right"}} -->
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Privacy Policy', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Privacy Policy', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Terms & Conditions', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Terms & Conditions', 'hiru' ); ?>","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

@@ -1,4 +1,4 @@
-=== Blok ===
+=== Hiru ===
 Contributors: ravigadhiyawp
 Requires at least: 6.1
 Tested up to: 6.8
@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Blok is a clean and versatile WordPress block theme built for creativity and flexibility. Designed with simplicity at its core, it comes packed with adaptable design options and beautifully crafted block patterns for a range of page types — from service pages to engaging landing layouts. Perfect for personal blogs, professional portfolios, and business websites, Blok offers templates that work seamlessly with various content styles, whether text-rich or visually bold. With support for global typography, and diverse color palettes, Blok empowers users worldwide to create accessible, customized, and visually striking websites — all without touching a line of code.
+Hiru is a clean and versatile WordPress block theme built for creativity and flexibility. Designed with simplicity at its core, it comes packed with adaptable design options and beautifully crafted block patterns for a range of page types — from service pages to engaging landing layouts. Perfect for personal blogs, professional portfolios, and business websites, Hiru offers templates that work seamlessly with various content styles, whether text-rich or visually bold. With support for global typography, and diverse color palettes, Hiru empowers users worldwide to create accessible, customized, and visually striking websites — all without touching a line of code.
 
 == Installation ==
 
@@ -24,8 +24,8 @@ Blok is a clean and versatile WordPress block theme built for creativity and fle
 
 == Copyright ==
 
-Blok WordPress Theme, (C) 2025 ravigadhiyawp.
-Blok is distributed under the terms of the GNU GPL v3.
+Hiru WordPress Theme, (C) 2025 ravigadhiyawp.
+Hiru is distributed under the terms of the GNU GPL v3.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -137,7 +137,6 @@ https://www.pexels.com/photo/man-wearing-white-dress-shirt-and-black-blazer-2182
 https://www.pexels.com/photo/elegant-man-in-armchair-17049832/
 https://www.pexels.com/photo/a-woman-in-white-blazer-smiling-with-her-arms-crossed-8528852/
 https://www.pexels.com/photo/woman-in-gray-blazer-sitting-on-chair-5717549/	
-
 
 All Icon Images used for different sections are SVG images
 

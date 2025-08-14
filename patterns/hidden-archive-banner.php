@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Archive Banner
- * Slug: blok/hidden-archive-banner
+ * Slug: hiru/hidden-archive-banner
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Blok
- * @since Blok 1.0
+ * @subpackage Hiru
+ * @since Hiru 1.0
  */
 
 ?>

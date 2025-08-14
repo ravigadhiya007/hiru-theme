@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Page Banner
- * Slug: blok/hidden-page-banner
+ * Slug: hiru/hidden-page-banner
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Blok
- * @since Blok 1.0
+ * @subpackage Hiru
+ * @since Hiru 1.0
  */
 
 ?>

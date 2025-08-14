@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Testimonials
- * Slug: blok/testimonials
+ * Slug: hiru/testimonials
  * Categories: testimonials
  * Description: A section highlighting customer testimonials in a visually engaging layout with a background image.
  *
  * @package WordPress
- * @subpackage Blok
- * @since Blok 1.0
+ * @subpackage Hiru
+ * @since Hiru 1.0
  */
 
 ?>
@@ -20,7 +20,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"large"} -->
-<p class="has-text-align-center has-large-font-size" style="margin-top:0;margin-bottom:0"><em><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.', 'blok' ); ?></em></p>
+<p class="has-text-align-center has-large-font-size" style="margin-top:0;margin-bottom:0"><em><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.', 'hiru' ); ?></em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"30px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
@@ -30,11 +30,11 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size"><?php esc_html_e( 'James Anderson', 'blok' ); ?></p>
+<p class="has-large-font-size"><?php esc_html_e( 'James Anderson', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|border-gray"}}}},"textColor":"border-gray","fontSize":"small"} -->
-<p class="has-border-gray-color has-text-color has-link-color has-small-font-size"><em><?php esc_html_e( 'Sales Manager', 'blok' ); ?></em></p>
+<p class="has-border-gray-color has-text-color has-link-color has-small-font-size"><em><?php esc_html_e( 'Sales Manager', 'hiru' ); ?></em></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

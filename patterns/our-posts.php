@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Our Blogs
- * Slug: blok/our-blogs
+ * Slug: hiru/our-blogs
  * Categories: posts
  * Description: A section displaying recent blog posts with featured images, titles, and excerpts in a clean layout.
  *
  * @package WordPress
- * @subpackage Blok
- * @since Blok 1.0
+ * @subpackage Hiru
+ * @since Hiru 1.0
  */
 
 ?>
@@ -15,11 +15,11 @@
 <div class="wp-block-group alignfull" id="our-blogs" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"0","margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"800px","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:heading {"textAlign":"left","level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700"},"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"textColor":"primary"} -->
-<h6 class="wp-block-heading has-text-align-left has-primary-color has-text-color has-link-color" style="margin-bottom:var(--wp--preset--spacing--20);font-style:normal;font-weight:700;text-transform:uppercase"><?php esc_html_e( 'News And Insight', 'blok' ); ?></h6>
+<h6 class="wp-block-heading has-text-align-left has-primary-color has-text-color has-link-color" style="margin-bottom:var(--wp--preset--spacing--20);font-style:normal;font-weight:700;text-transform:uppercase"><?php esc_html_e( 'News And Insight', 'hiru' ); ?></h6>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|black"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"black","fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-black-color has-text-color has-link-color has-xx-large-font-size" style="font-style:normal;font-weight:700"><?php esc_html_e( 'Stay informed with the latest updates, ideas, and industry trends', 'blok' ); ?><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">.</mark></h2>
+<h2 class="wp-block-heading has-black-color has-text-color has-link-color has-xx-large-font-size" style="font-style:normal;font-weight:700"><?php esc_html_e( 'Stay informed with the latest updates, ideas, and industry trends', 'hiru' ); ?><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">.</mark></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -38,20 +38,20 @@
 
 <!-- wp:post-title {"isLink":true,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|black"}}},"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"textColor":"black","fontSize":"x-large"} /-->
 
-<!-- wp:post-excerpt {"moreText":"<?php esc_html_e( 'Read more »', 'blok' ); ?>","excerptLength":30,"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}}} /--></div>
+<!-- wp:post-excerpt {"moreText":"<?php esc_html_e( 'Read more »', 'hiru' ); ?>","excerptLength":30,"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- /wp:post-template -->
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php esc_html_e( 'No blog posts found. Please check back soon !', 'blok' ); ?></p>
+<p class="has-text-align-center"><?php esc_html_e( 'No blog posts found. Please check back soon !', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"textAlign":"left"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-text-align-left wp-element-button" href="#"><?php esc_html_e( 'Read More', 'blok' ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link has-text-align-left wp-element-button" href="#"><?php esc_html_e( 'Read More', 'hiru' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:query --></div>

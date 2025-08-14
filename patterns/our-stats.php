@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Our Stats
- * Slug: blok/our-stats
+ * Slug: hiru/our-stats
  * Categories: about, text
  * Description: A section highlighting key metrics and accomplishments to showcase growth, impact, or experience.
  *
  * @package WordPress
- * @subpackage Blok
- * @since Blok 1.0
+ * @subpackage Hiru
+ * @since Hiru 1.0
  */
 
 ?>
@@ -17,57 +17,57 @@
 <div class="wp-block-columns alignwide are-vertically-aligned-top"><!-- wp:column {"verticalAlignment":"top","width":"50%"} -->
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:50%"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"0","margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"800px","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:heading {"textAlign":"left","level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700"},"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"textColor":"primary"} -->
-<h6 class="wp-block-heading has-text-align-left has-primary-color has-text-color has-link-color" style="margin-bottom:var(--wp--preset--spacing--20);font-style:normal;font-weight:700;text-transform:uppercase"><?php esc_html_e( 'Our Stats', 'blok' ); ?></h6>
+<h6 class="wp-block-heading has-text-align-left has-primary-color has-text-color has-link-color" style="margin-bottom:var(--wp--preset--spacing--20);font-style:normal;font-weight:700;text-transform:uppercase"><?php esc_html_e( 'Our Stats', 'hiru' ); ?></h6>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|black"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"black","fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-black-color has-text-color has-link-color has-xx-large-font-size" style="font-style:normal;font-weight:700"><?php esc_html_e( 'A snapshot of what we’ve accomplished—together', 'blok' ); ?><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">.</mark></h2>
+<h2 class="wp-block-heading has-black-color has-text-color has-link-color has-xx-large-font-size" style="font-style:normal;font-weight:700"><?php esc_html_e( 'A snapshot of what we’ve accomplished—together', 'hiru' ); ?><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">.</mark></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e( 'Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.&nbsp;', 'blok' ); ?></p>
+<p><?php esc_html_e( 'Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.&nbsp;', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"border":{"top":{"color":"var:preset|color|border-gray","width":"1px"},"bottom":{"color":"var:preset|color|border-gray","width":"1px"}},"spacing":{"padding":{"top":"24px","bottom":"24px"},"margin":{"top":"32px"},"blockGap":"40px"}},"layout":{"type":"grid","minimumColumnWidth":"8rem"}} -->
 <div class="wp-block-group" style="border-top-color:var(--wp--preset--color--border-gray);border-top-width:1px;border-bottom-color:var(--wp--preset--color--border-gray);border-bottom-width:1px;margin-top:32px;padding-top:24px;padding-bottom:24px"><!-- wp:group {"style":{"spacing":{"blockGap":"6px"},"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-<h2 class="wp-block-heading has-primary-color has-text-color has-link-color"><strong><?php esc_html_e( '200+', 'blok' ); ?></strong></h2>
+<h2 class="wp-block-heading has-primary-color has-text-color has-link-color"><strong><?php esc_html_e( '200+', 'hiru' ); ?></strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e( 'Projects', 'blok' ); ?></p>
+<p><?php esc_html_e( 'Projects', 'hiru' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"6px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-<h2 class="wp-block-heading has-primary-color has-text-color has-link-color"><strong><?php esc_html_e( '350M', 'blok' ); ?></strong></h2>
+<h2 class="wp-block-heading has-primary-color has-text-color has-link-color"><strong><?php esc_html_e( '350M', 'hiru' ); ?></strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e( 'Clients', 'blok' ); ?></p>
+<p><?php esc_html_e( 'Clients', 'hiru' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"6px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-<h2 class="wp-block-heading has-primary-color has-text-color has-link-color"><strong><?php esc_html_e( '100%', 'blok' ); ?></strong></h2>
+<h2 class="wp-block-heading has-primary-color has-text-color has-link-color"><strong><?php esc_html_e( '100%', 'hiru' ); ?></strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e( 'Satisfaction Rate', 'blok' ); ?></p>
+<p><?php esc_html_e( 'Satisfaction Rate', 'hiru' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e( 'Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.', 'blok' ); ?></p>
+<p><?php esc_html_e( 'Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'Contact Us', 'blok' ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'Contact Us', 'hiru' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->

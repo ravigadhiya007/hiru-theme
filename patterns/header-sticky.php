@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Sticky header
- * Slug: blok/header-sticky
+ * Slug: hiru/header-sticky
  * Categories: header
  * Block Types: core/template-part/header
  * Description: Site sticky header with site title and navigation.
  *
  * @package WordPress
- * @subpackage Blok
- * @since Blok 1.0
+ * @subpackage Hiru
+ * @since Hiru 1.0
  */
 
 ?>
@@ -21,22 +21,22 @@
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 <div class="wp-block-group">
 	<!-- wp:navigation {"layout":{"type":"flex","justifyContent":"right","orientation":"horizontal","flexWrap":"nowrap"}} -->
-		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Home', 'blok' ); ?>","url":"#"} /-->
-		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About US', 'blok' ); ?>","url":"#"} /-->
-		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Services', 'blok' ); ?>","url":"#"} /-->
-		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog', 'blok' ); ?>","url":"#"} /-->
-		<!-- wp:navigation-submenu {"label":"<?php esc_html_e( 'Pages', 'blok' ); ?>","url":"#"} -->
-			<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog Page', 'blok' ); ?>","url":"#"} /-->
-			<!-- wp:navigation-link {"label":"<?php esc_html_e( '404 Page', 'blok' ); ?>","url":"#"} /-->
+		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Home', 'hiru' ); ?>","url":"#"} /-->
+		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About US', 'hiru' ); ?>","url":"#"} /-->
+		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Services', 'hiru' ); ?>","url":"#"} /-->
+		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog', 'hiru' ); ?>","url":"#"} /-->
+		<!-- wp:navigation-submenu {"label":"<?php esc_html_e( 'Pages', 'hiru' ); ?>","url":"#"} -->
+			<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog Page', 'hiru' ); ?>","url":"#"} /-->
+			<!-- wp:navigation-link {"label":"<?php esc_html_e( '404 Page', 'hiru' ); ?>","url":"#"} /-->
 		<!-- /wp:navigation-submenu -->
-		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact Us', 'blok' ); ?>","url":"#"} /-->
+		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact Us', 'hiru' ); ?>","url":"#"} /-->
 	<!-- /wp:navigation -->
 </div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"className":"mobile-hide"} -->
 <div class="wp-block-buttons mobile-hide"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'Contact', 'blok' ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'Contact', 'hiru' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

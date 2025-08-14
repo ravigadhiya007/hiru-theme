@@ -1,42 +1,42 @@
 <?php
 /**
- * Blok functions and definitions.
+ * Hiru functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package WordPress
- * @subpackage Blok
- * @since Blok 1.0
+ * @subpackage Hiru
+ * @since Hiru 1.0
  */
 
 // Enqueues editor-style.css in the editors.
-if ( ! function_exists( 'blok_editor_style' ) ) :
+if ( ! function_exists( 'hiru_editor_style' ) ) :
 	/**
 	 * Enqueues editor-style.css in the editors.
 	 *
-	 * @since Blok 1.0
+	 * @since Hiru 1.0
 	 *
 	 * @return void
 	 */
-	function blok_editor_style() {
+	function hiru_editor_style() {
 		add_editor_style( get_parent_theme_file_uri( 'assets/css/editor-style.css' ) );
 	}
 endif;
-add_action( 'after_setup_theme', 'blok_editor_style' );
+add_action( 'after_setup_theme', 'hiru_editor_style' );
 
 // Enqueues theme style and script on the front.
-if ( ! function_exists( 'blok_enqueue_theme_scripts' ) ) :
+if ( ! function_exists( 'hiru_enqueue_theme_scripts' ) ) :
 	/**
 	 * Enqueue theme styles and scripts.
 	 *
-	 * @since Blok 1.0
+	 * @since Hiru 1.0
 	 *
 	 * @return void
 	 */
-	function blok_enqueue_theme_scripts() {
+	function hiru_enqueue_theme_scripts() {
 		// Enqueues style.css on the front.
 		wp_enqueue_style(
-			'blok-style',
+			'hiru-style',
 			get_parent_theme_file_uri( 'style.css' ),
 			array(),
 			wp_get_theme()->get( 'Version' )
@@ -44,7 +44,7 @@ if ( ! function_exists( 'blok_enqueue_theme_scripts' ) ) :
 
 		// Enqueues script.js on the front.
 		wp_enqueue_script(
-			'blok-script',
+			'hiru-script',
 			get_parent_theme_file_uri( 'assets/js/script.js' ),
 			array(),
 			wp_get_theme()->get( 'Version' ),
@@ -52,23 +52,23 @@ if ( ! function_exists( 'blok_enqueue_theme_scripts' ) ) :
 		);
 	}
 endif;
-add_action( 'wp_enqueue_scripts', 'blok_enqueue_theme_scripts' );
+add_action( 'wp_enqueue_scripts', 'hiru_enqueue_theme_scripts' );
 
 // Registers custom block styles.
-if ( ! function_exists( 'blok_block_styles' ) ) :
+if ( ! function_exists( 'hiru_block_styles' ) ) :
 	/**
 	 * Registers custom block styles.
 	 *
-	 * @since Blok 1.0
+	 * @since Hiru 1.0
 	 *
 	 * @return void
 	 */
-	function blok_block_styles() {
+	function hiru_block_styles() {
 		register_block_style(
 			'core/list',
 			array(
 				'name'         => 'checkmark-list',
-				'label'        => __( 'Checkmark', 'blok' ),
+				'label'        => __( 'Checkmark', 'hiru' ),
 				'inline_style' => '
 				ul.is-style-checkmark-list {
 					list-style-type: "\2713";
@@ -81,7 +81,7 @@ if ( ! function_exists( 'blok_block_styles' ) ) :
 		);
 	}
 endif;
-add_action( 'init', 'blok_block_styles' );
+add_action( 'init', 'hiru_block_styles' );
 
 /**
  * Replace navigation icon.
@@ -90,7 +90,7 @@ add_action( 'init', 'blok_block_styles' );
  * @param array  $block Block data object.
  * @return string
  */
-function blok__render_block_core_navigation( $block_content, $block ) {
+function hiru__render_block_core_navigation( $block_content, $block ) {
 	if (
 		'core/navigation' === $block['blockName'] &&
 		! is_admin() &&
@@ -101,26 +101,26 @@ function blok__render_block_core_navigation( $block_content, $block ) {
 
 	return $block_content;
 }
-add_filter( 'render_block', 'blok__render_block_core_navigation', null, 2 );
+add_filter( 'render_block', 'hiru__render_block_core_navigation', null, 2 );
 
 // Registers pattern categories.
-if ( ! function_exists( 'blok__pattern_categories' ) ) :
+if ( ! function_exists( 'hiru__pattern_categories' ) ) :
 	/**
 	 * Registers pattern categories.
 	 *
-	 * @since Blok 1.0
+	 * @since Hiru 1.0
 	 *
 	 * @return void
 	 */
-	function blok__pattern_categories() {
+	function hiru__pattern_categories() {
 
 		register_block_pattern_category(
-			'blok_team',
+			'hiru_team',
 			array(
-				'label'       => __( 'Team', 'blok' ),
-				'description' => __( 'A collection of team member layouts.', 'blok' ),
+				'label'       => __( 'Team', 'hiru' ),
+				'description' => __( 'A collection of team member layouts.', 'hiru' ),
 			)
 		);
 	}
 endif;
-add_action( 'init', 'blok__pattern_categories' );
+add_action( 'init', 'hiru__pattern_categories' );

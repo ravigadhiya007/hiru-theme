@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Comments
- * Slug: blok/comments
+ * Slug: hiru/comments
  * Description: Comments area with comments list, pagination, and comment form.
  * Categories: text
  * Block Types: core/comments
  *
  * @package WordPress
- * @subpackage Blok
- * @since Blok 1.0
+ * @subpackage Hiru
+ * @since Hiru 1.0
  */
 
 ?>

@@ -1,4 +1,4 @@
-/* * Custom JavaScript for Blok Theme
+/* * Custom JavaScript for Hiru Theme
  * This script handles the sticky header functionality.
  */
 document.addEventListener("DOMContentLoaded", function () {

@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Our Team
- * Slug: blok/our-team
+ * Slug: hiru/our-team
  * Categories: team, text
  * Description: A section introducing team members with names, roles, and optional photos or bios.
  *
  * @package WordPress
- * @subpackage Blok
- * @since Blok 1.0
+ * @subpackage Hiru
+ * @since Hiru 1.0
  */
 
 ?>
@@ -15,11 +15,11 @@
 <div class="wp-block-group alignfull has-bg-gray-background-color has-background" id="our-team" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"0","margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"800px","justifyContent":"left"}} -->
 <div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:heading {"textAlign":"left","level":6,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700"},"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"textColor":"primary"} -->
-<h6 class="wp-block-heading has-text-align-left has-primary-color has-text-color has-link-color" style="margin-bottom:var(--wp--preset--spacing--20);font-style:normal;font-weight:700;text-transform:uppercase"><?php esc_html_e( 'Meet Our Team', 'blok' ); ?></h6>
+<h6 class="wp-block-heading has-text-align-left has-primary-color has-text-color has-link-color" style="margin-bottom:var(--wp--preset--spacing--20);font-style:normal;font-weight:700;text-transform:uppercase"><?php esc_html_e( 'Meet Our Team', 'hiru' ); ?></h6>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|black"}}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"black","fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-black-color has-text-color has-link-color has-xx-large-font-size" style="font-style:normal;font-weight:700"><?php esc_html_e( 'Passionate professionals working together to make a difference', 'blok' ); ?><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">.</mark></h2>
+<h2 class="wp-block-heading has-black-color has-text-color has-link-color has-xx-large-font-size" style="font-style:normal;font-weight:700"><?php esc_html_e( 'Passionate professionals working together to make a difference', 'hiru' ); ?><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">.</mark></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -32,16 +32,16 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|black"}}}},"textColor":"black"} -->
-<p class="has-text-align-center has-black-color has-text-color has-link-color"><strong><?php esc_html_e( 'Michael Carter', 'blok' ); ?></strong></p>
+<p class="has-text-align-center has-black-color has-text-color has-link-color"><strong><?php esc_html_e( 'Michael Carter', 'hiru' ); ?></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|border-gray"}}}},"textColor":"border-gray"} -->
-<p class="has-text-align-center has-border-gray-color has-text-color has-link-color"><em><?php esc_html_e( 'CEO', 'blok' ); ?></em></p>
+<p class="has-text-align-center has-border-gray-color has-text-color has-link-color"><em><?php esc_html_e( 'CEO', 'hiru' ); ?></em></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.', 'blok' ); ?></p>
+<p class="has-text-align-center"><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"white","iconColorValue":"#FFFFFF","iconBackgroundColor":"primary","iconBackgroundColorValue":"#1769FF","size":"has-normal-icon-size","align":"center","className":"is-style-default","style":{"spacing":{"blockGap":{"left":"6px"},"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
@@ -62,16 +62,16 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|black"}}}},"textColor":"black"} -->
-<p class="has-text-align-center has-black-color has-text-color has-link-color"><strong><?php esc_html_e( 'Daniel Miller', 'blok' ); ?></strong></p>
+<p class="has-text-align-center has-black-color has-text-color has-link-color"><strong><?php esc_html_e( 'Daniel Miller', 'hiru' ); ?></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|border-gray"}}}},"textColor":"border-gray"} -->
-<p class="has-text-align-center has-border-gray-color has-text-color has-link-color"><em><?php esc_html_e( 'COO', 'blok' ); ?></em></p>
+<p class="has-text-align-center has-border-gray-color has-text-color has-link-color"><em><?php esc_html_e( 'COO', 'hiru' ); ?></em></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.', 'blok' ); ?></p>
+<p class="has-text-align-center"><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"white","iconColorValue":"#FFFFFF","iconBackgroundColor":"primary","iconBackgroundColorValue":"#1769FF","size":"has-normal-icon-size","align":"center","className":"is-style-default","style":{"spacing":{"blockGap":{"left":"6px"},"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
@@ -92,16 +92,16 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|black"}}}},"textColor":"black"} -->
-<p class="has-text-align-center has-black-color has-text-color has-link-color"><strong><?php esc_html_e( 'Emily Johnson', 'blok' ); ?></strong></p>
+<p class="has-text-align-center has-black-color has-text-color has-link-color"><strong><?php esc_html_e( 'Emily Johnson', 'hiru' ); ?></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|border-gray"}}}},"textColor":"border-gray"} -->
-<p class="has-text-align-center has-border-gray-color has-text-color has-link-color"><em><?php esc_html_e( 'Sales Manager', 'blok' ); ?></em></p>
+<p class="has-text-align-center has-border-gray-color has-text-color has-link-color"><em><?php esc_html_e( 'Sales Manager', 'hiru' ); ?></em></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.', 'blok' ); ?></p>
+<p class="has-text-align-center"><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"white","iconColorValue":"#FFFFFF","iconBackgroundColor":"primary","iconBackgroundColorValue":"#1769FF","size":"has-normal-icon-size","align":"center","className":"is-style-default","style":{"spacing":{"blockGap":{"left":"6px"},"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
@@ -122,16 +122,16 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|black"}}}},"textColor":"black"} -->
-<p class="has-text-align-center has-black-color has-text-color has-link-color"><strong><?php esc_html_e( 'Sophia Davis', 'blok' ); ?></strong></p>
+<p class="has-text-align-center has-black-color has-text-color has-link-color"><strong><?php esc_html_e( 'Sophia Davis', 'hiru' ); ?></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|border-gray"}}}},"textColor":"border-gray"} -->
-<p class="has-text-align-center has-border-gray-color has-text-color has-link-color"><em><?php esc_html_e( 'Client Success Manager', 'blok' ); ?></em></p>
+<p class="has-text-align-center has-border-gray-color has-text-color has-link-color"><em><?php esc_html_e( 'Client Success Manager', 'hiru' ); ?></em></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.', 'blok' ); ?></p>
+<p class="has-text-align-center"><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"white","iconColorValue":"#FFFFFF","iconBackgroundColor":"primary","iconBackgroundColorValue":"#1769FF","size":"has-normal-icon-size","align":"center","className":"is-style-default","style":{"spacing":{"blockGap":{"left":"6px"},"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->

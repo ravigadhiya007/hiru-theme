@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Search Result Page Banner
- * Slug: blok/hidden-search-banner
+ * Slug: hiru/hidden-search-banner
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Blok
- * @since Blok 1.0
+ * @subpackage Hiru
+ * @since Hiru 1.0
  */
 
 ?>

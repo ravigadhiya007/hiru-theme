@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: List of posts, 3 columns
- * Slug: blok/query-loop
+ * Slug: hiru/query-loop
  * Categories: query
  * Block Types: core/query
  * Description: A list of posts, 3 columns, with featured image and post date.
  *
  * @package WordPress
- * @subpackage Blok
- * @since Blok 1.0
+ * @subpackage Hiru
+ * @since Hiru 1.0
  */
 
 ?>
@@ -35,7 +35,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph -->
-<p><?php esc_html_e( 'No blog posts found. Please check back soon !', 'blok' ); ?></p>
+<p><?php esc_html_e( 'No blog posts found. Please check back soon !', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results -->
 
