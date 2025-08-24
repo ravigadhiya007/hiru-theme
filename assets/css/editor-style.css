@@ -4,6 +4,11 @@ a {
 	text-underline-offset: .1em;
 }
 
+/** Figure styles */
+figure {
+	max-width: 100%;
+}
+
 /* 404 page heading styles */
 .heading-404 {
 	text-shadow: 12px 10px rgb(6 5 5 / 15%);
@@ -20,9 +25,10 @@ a {
 	border: 1px solid var(--wp--preset--color--bg-gray);
 	background-color: var(--wp--preset--color--bg-gray);
 	font-weight: 600;
-	padding: 0;
-	width: 40px;
+	padding: 0 14px;
+	min-width: 40px;
 	height: 40px;
+	box-sizing: border-box;
 	line-height: 40px;
 	text-align: center;
 	border-radius: 8px;
@@ -51,6 +57,7 @@ input[type="email"],
 input[type="url"],
 input[type="tel"],
 input[type="number"],
+input[type="password"],
 select,
 textarea,
 .wp-block-search__input {
@@ -73,6 +80,7 @@ input[type="email"]:focus,
 input[type="url"]:focus,
 input[type="tel"]:focus,
 input[type="number"]:focus,
+input[type="password"]:focus,
 select:focus,
 textarea:focus,
 .wp-block-search__input:focus {

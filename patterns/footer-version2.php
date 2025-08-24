@@ -114,7 +114,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="mailto:mail@example.com">mail@example.com</a></p>
+<p><a href="mailto:<?php esc_html_e( 'mail@example.com', 'hiru' ); ?>"><?php esc_html_e( 'mail@example.com', 'hiru' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -124,7 +124,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="mailto:spport@example.com">spport@example.com</a></p>
+<p><a href="mailto:<?php esc_html_e( 'spport@example.com', 'hiru' ); ?>"><?php esc_html_e( 'spport@example.com', 'hiru' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

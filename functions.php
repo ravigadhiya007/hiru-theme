@@ -46,7 +46,7 @@ if ( ! function_exists( 'hiru_enqueue_theme_scripts' ) ) :
 		wp_enqueue_script(
 			'hiru-script',
 			get_parent_theme_file_uri( 'assets/js/script.js' ),
-			array(),
+			array( 'jquery' ),
 			wp_get_theme()->get( 'Version' ),
 			true
 		);

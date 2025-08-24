@@ -130,39 +130,41 @@ Free public domain CC0 image.
 messy-office-desk.webp
 https://www.rawpixel.com/image/431930/
 
-Team member images
-License: CC0 1.0 Universal (CC0 1.0)
+Team member 1.
+Free public domain CC0 image.
+team-member-1.webp
+https://pxhere.com/en/photo/1068652
+
+Team member 2.
+Free public domain CC0 image.
+team-member-2.webp
+https://pxhere.com/en/photo/706486
+
+Team member 3.
+Free public domain CC0 image.
+team-member-3.webp
+https://pxhere.com/en/photo/1674976
+
+Team member 4.
+Free public domain CC0 image.
+team-member-4.webp
+https://pxhere.com/en/photo/1573329
+
+Happy Customer.
+Free public domain CC0 image.
+happy-customer.webp
+https://pxhere.com/en/photo/1652043
+
+All Icon Images used on different section are fontawesome icons.
+Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com
+License: https://fontawesome.com/license/free#icons (Icons - CC BY 4.0 License)
 Source:
-https://www.pexels.com/photo/man-wearing-white-dress-shirt-and-black-blazer-2182970/
-https://www.pexels.com/photo/elegant-man-in-armchair-17049832/
-https://www.pexels.com/photo/a-woman-in-white-blazer-smiling-with-her-arms-crossed-8528852/
-https://www.pexels.com/photo/woman-in-gray-blazer-sitting-on-chair-5717549/	
-
-All Icon Images used for different sections are SVG images
-
-Source: https://www.svgrepo.com/svg/425893/graph1
-License: https://www.svgrepo.com/page/licensing/#CC%20Attribution
-
-Source: https://www.svgrepo.com/svg/374557/brand
-License: https://www.svgrepo.com/page/licensing/#CC%20Attribution
-
-Source: https://www.svgrepo.com/svg/52817/gears
-License: https://www.svgrepo.com/page/licensing/#CC0
-
-Source: https://www.svgrepo.com/svg/485659/chart
-License: https://www.svgrepo.com/page/licensing/#PD
-
-Source: https://www.svgrepo.com/svg/491458/paper-plane
-License: https://www.svgrepo.com/page/licensing/#CC%20Attribution
-
-Source: https://www.svgrepo.com/svg/352649/user-tie
-License: https://www.svgrepo.com/page/licensing/#CC%20Attribution
-
-Source: https://www.svgrepo.com/svg/442468/check-circle
-License: https://www.svgrepo.com/page/licensing/#CC%20Attribution
-
-Source: https://www.svgrepo.com/svg/486865/support
-License: https://www.svgrepo.com/page/licensing/#MIT
-
-Source: https://www.svgrepo.com/svg/431878/quote-left
-License: https://www.svgrepo.com/page/licensing/#Apache
+https://fontawesome.com/icons/chart-line?f=classic&s=solid
+https://fontawesome.com/icons/palette?f=classic&s=solid
+https://fontawesome.com/icons/gears?f=classic&s=solid
+https://fontawesome.com/icons/arrow-up-right-dots?f=classic&s=solid
+https://fontawesome.com/icons/paper-plane?f=classic&s=solid
+https://fontawesome.com/icons/user-tie?f=classic&s=solid
+https://fontawesome.com/icons/circle-check?f=classic&s=solid
+https://fontawesome.com/icons/headphones?f=classic&s=solid
+https://fontawesome.com/icons/quote-left?f=classic&s=solid
