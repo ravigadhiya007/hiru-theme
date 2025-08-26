@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Footer
- * Slug: blok/footer
+ * Slug: hiru/footer
  * Categories: footer
  * Block Types: core/template-part/footer
  * Description: Site footer with copyright information and social links.
  *
  * @package WordPress
- * @subpackage Blok
- * @since Blok 1.0
+ * @subpackage Hiru
+ * @since Hiru 1.0
  */
 
 ?>
@@ -21,7 +21,7 @@
 <div class="wp-block-group"><!-- wp:site-title {"level":2,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} /-->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|gray"}}}},"textColor":"gray"} -->
-<p class="has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica', 'blok' ); ?></p>
+<p class="has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica', 'hiru' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -31,16 +31,16 @@
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
-<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'Work With Us', 'blok' ); ?></strong></h3>
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'Work With Us', 'hiru' ); ?></strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|gray"}}}},"textColor":"gray"} -->
-<p class="has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Email us at', 'blok' ); ?></p>
+<p class="has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Email us at', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="mailto:mail@example.com">mail@example.com</a></p>
+<p><a href="mailto:<?php esc_html_e( 'mail@example.com', 'hiru' ); ?>"><?php esc_html_e( 'mail@example.com', 'hiru' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -49,16 +49,16 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
-<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'General Questions', 'blok' ); ?></strong></h3>
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'General Questions', 'hiru' ); ?></strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|gray"}}}},"textColor":"gray"} -->
-<p class="has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Reach out at', 'blok' ); ?></p>
+<p class="has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Reach out at', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="mailto:spport@example.com">spport@example.com</a></p>
+<p><a href="mailto:<?php esc_html_e( 'spport@example.com', 'hiru' ); ?>"><?php esc_html_e( 'spport@example.com', 'hiru' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -67,12 +67,12 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
-<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'Stay Connected', 'blok' ); ?></strong></h3>
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'Stay Connected', 'hiru' ); ?></strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|gray"}}}},"textColor":"gray"} -->
-<p class="has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Follow us on social media', 'blok' ); ?></p>
+<p class="has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Follow us on social media', 'hiru' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"black","iconColorValue":"#000000","openInNewTab":true,"className":"is-style-logos-only footer-social","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"}}}} -->
@@ -93,19 +93,19 @@
 <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
-<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'Company', 'blok' ); ?></strong></h3>
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'Company', 'hiru' ); ?></strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"textColor":"gray","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About Us', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About Us', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Our Team', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Our Team', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Careers', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Careers', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'News & Press', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'News & Press', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact', 'hiru' ); ?>","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -113,19 +113,19 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
-<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'What We Do', 'blok' ); ?></strong></h3>
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'What We Do', 'hiru' ); ?></strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"textColor":"gray","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Services', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Services', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Our Process', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Our Process', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Case Studies', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Case Studies', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Industries We Serve', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Industries We Serve', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Technology Stack', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Technology Stack', 'hiru' ); ?>","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -133,19 +133,19 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
-<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'Quick Links', 'blok' ); ?></strong></h3>
+<h3 class="wp-block-heading has-white-color has-text-color has-link-color"><strong><?php esc_html_e( 'Quick Links', 'hiru' ); ?></strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"textColor":"gray","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'FAQs', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'FAQs', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Support', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Support', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Privacy Policy', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Privacy Policy', 'hiru' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Terms & Conditions', 'blok' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Terms & Conditions', 'hiru' ); ?>","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -158,7 +158,7 @@
 <!-- wp:group {"align":"full","style":{"color":{"background":"#000000e6"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull has-background" style="background-color:#000000e6"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|gray"}}}},"textColor":"gray"} -->
-<p class="has-text-align-center has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Copyright © 2025 Blok.', 'blok' ); ?></p>
+<p class="has-text-align-center has-gray-color has-text-color has-link-color"><?php esc_html_e( 'Copyright © 2025 Hiru.', 'hiru' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

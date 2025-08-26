@@ -312,6 +312,14 @@
 					"link": {
 						"color": {
 							"text": "var:preset|color|gray"
+						},
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
 						}
 					}
 				}
@@ -321,6 +329,14 @@
 					"link": {
 						"color": {
 							"text": "var:preset|color|gray"
+						},
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
 						}
 					}
 				},
@@ -333,6 +349,14 @@
 					"link": {
 						"color": {
 							"text": "var:preset|color|gray"
+						},
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
 						}
 					}
 				},
@@ -350,6 +374,18 @@
 						"top": "var:preset|spacing|40",
 						"bottom": "var:preset|spacing|40"
 					}
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
 				}
 			},
 			"core/comments-pagination": {
@@ -361,6 +397,18 @@
 						"top": "var:preset|spacing|40",
 						"bottom": "var:preset|spacing|40"
 					}
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
 				}
 			},
 			"core/comments-pagination-next": {
@@ -371,6 +419,18 @@
 			"core/comments-pagination-numbers": {
 				"typography": {
 					"fontSize": "var:preset|font-size|medium"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
 				}
 			},
 			"core/comments-pagination-previous": {
@@ -423,6 +483,48 @@
 						},
 						"typography": {
 							"textDecoration": "none"
+						}
+					}
+				}
+			},
+			"core/post-author-name": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
+				}
+			},
+			"core/post-excerpt": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
+				}
+			},
+			"core/categories": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
 						}
 					}
 				}
@@ -514,6 +616,18 @@
 				"typography": {
 					"fontSize": "var:preset|font-size|medium",
 					"fontWeight": "600"
+				},
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "none"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
 				}
 			},
 			"core/search": {
@@ -697,11 +811,11 @@
 					"text": "var:preset|color|primary"
 				},
 				"typography": {
-					"textDecoration": "none"
+					"textDecoration": "underline"
 				},
 				":hover": {
 					"typography": {
-						"textDecoration": "underline"
+						"textDecoration": "none"
 					}
 				}
 			}
